@@ -1,0 +1,149 @@
+>>> 
+****Maximum Entropy Calssifier****
+
+Evaluating Unigram Words as features.
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.916133617626
+pos Precision: 0.866421568627
+pos Recall: 0.987430167598
+neg Precision: 0.984771573604
+neg Recall: 0.842257597685
+  -0.000 Poor==True and label is 'pos'
+  -0.000 Waste==True and label is 'pos'
+  -0.000 Crap==True and label is 'pos'
+  -0.000 Excellent==True and label is 'neg'
+  -0.000 BEST==True and label is 'neg'
+  -0.000 Loving==True and label is 'neg'
+  -0.000 Terrible==True and label is 'pos'
+  -0.000 AWESOME==True and label is 'neg'
+  -0.000 Helps==True and label is 'neg'
+  -0.000 Useless==True and label is 'pos'
+
+Evaluating Unigram + Bigram Word features.
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.960909737029
+pos Precision: 0.947225981055
+pos Recall: 0.977653631285
+neg Precision: 0.976047904192
+neg Recall: 0.943560057887
+  -0.000 Poor==True and label is 'pos'
+  -0.000 Waste==True and label is 'pos'
+  -0.000 (u'Highly', u'recommended')==True and label is 'neg'
+  -0.000 (u'Very', u'useful')==True and label is 'neg'
+  -0.000 Crap==True and label is 'pos'
+  -0.000 Excellent==True and label is 'neg'
+  -0.000 BEST==True and label is 'neg'
+  -0.000 Loving==True and label is 'neg'
+  -0.000 Terrible==True and label is 'pos'
+  -0.000 (u'Better', u'than')==True and label is 'neg'
+
+Evaluating high informative word features
+
+Evaluating best 10 word features
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.609808102345
+pos Precision: 0.566112430721
+pos Recall: 0.998603351955
+neg Precision: 0.993055555556
+neg Recall: 0.206946454414
+  -0.593 Awesome==True and label is 'neg'
+  -0.576 Best==True and label is 'neg'
+  -0.380 Love==True and label is 'neg'
+  -0.297 awesome==True and label is 'neg'
+  -0.273 best==True and label is 'neg'
+  -0.270 Great==True and label is 'neg'
+  -0.157 fix==True and label is 'pos'
+  -0.144 love==True and label is 'neg'
+   0.118 Awesome==True and label is 'pos'
+   0.117 Best==True and label is 'pos'
+
+Evaluating best 100 word features
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.928926794598
+pos Precision: 0.885964912281
+pos Recall: 0.987430167598
+neg Precision: 0.985221674877
+neg Recall: 0.868306801737
+  -0.110 Waste==True and label is 'pos'
+  -0.106 Excellent==True and label is 'neg'
+  -0.093 Worst==True and label is 'pos'
+  -0.083 Easy==True and label is 'neg'
+  -0.079 Amazing==True and label is 'neg'
+  -0.074 Perfect==True and label is 'neg'
+  -0.074 Fantastic==True and label is 'neg'
+  -0.073 Awesome==True and label is 'neg'
+  -0.071 Best==True and label is 'neg'
+  -0.067 Won==True and label is 'pos'
+
+Evaluating best 1000 word features
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.956645344705
+pos Precision: 0.938420348059
+pos Recall: 0.97905027933
+neg Precision: 0.977272727273
+neg Recall: 0.933429811867
+  -0.012 Poor==True and label is 'pos'
+  -0.011 Waste==True and label is 'pos'
+  -0.011 Crap==True and label is 'pos'
+  -0.011 Excellent==True and label is 'neg'
+  -0.011 BEST==True and label is 'neg'
+  -0.011 Loving==True and label is 'neg'
+  -0.011 Terrible==True and label is 'pos'
+  -0.010 AWESOME==True and label is 'neg'
+  -0.010 Helps==True and label is 'neg'
+  -0.010 Useless==True and label is 'pos'
+
+Evaluating best 10000 word features
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.951670220327
+pos Precision: 0.926315789474
+pos Recall: 0.983240223464
+neg Precision: 0.981452859351
+neg Recall: 0.918958031838
+  -0.001 Poor==True and label is 'pos'
+  -0.001 Waste==True and label is 'pos'
+  -0.001 Crap==True and label is 'pos'
+  -0.001 Excellent==True and label is 'neg'
+  -0.001 BEST==True and label is 'neg'
+  -0.001 Loving==True and label is 'neg'
+  -0.001 Terrible==True and label is 'pos'
+  -0.001 AWESOME==True and label is 'neg'
+  -0.001 Helps==True and label is 'neg'
+  -0.001 Useless==True and label is 'pos'
+
+Evaluating best 15000 word features
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.948116560057
+pos Precision: 0.918075422627
+pos Recall: 0.986033519553
+neg Precision: 0.984326018809
+neg Recall: 0.908827785818
+  -0.001 Poor==True and label is 'pos'
+  -0.001 Waste==True and label is 'pos'
+  -0.001 Crap==True and label is 'pos'
+  -0.001 Excellent==True and label is 'neg'
+  -0.001 BEST==True and label is 'neg'
+  -0.001 Loving==True and label is 'neg'
+  -0.001 Terrible==True and label is 'pos'
+  -0.001 AWESOME==True and label is 'neg'
+  -0.001 Helps==True and label is 'neg'
+  -0.001 Useless==True and label is 'pos'
+
+Evaluating best 200 Bigram word features
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.961620469083
+pos Precision: 0.958448753463
+pos Recall: 0.966480446927
+neg Precision: 0.96496350365
+neg Recall: 0.956584659913
+  -0.000 (u'Highly', u'recommended')==True and label is 'neg'
+  -0.000 (u'Very', u'useful')==True and label is 'neg'
+  -0.000 (u'Better', u'than')==True and label is 'neg'
+  -0.000 (u'LOVE', u'IT')==True and label is 'neg'
+  -0.000 (u'Not', u'working')==True and label is 'pos'
+  -0.000 (u'Will', u'not')==True and label is 'pos'
+  -0.000 (u'Highly', u'recommend')==True and label is 'neg'
+  -0.000 (u'Not', u'happy')==True and label is 'pos'
+  -0.000 (u'rip', u'off')==True and label is 'pos'
+  -0.000 (u'Must', u'have')==True and label is 'neg'
+>>> 

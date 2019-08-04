@@ -1,0 +1,175 @@
+****Naive Bayes Calssifier****
+
+Evaluating All Words as features.
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.92750533049
+pos Precision: 0.88184079602
+pos Recall: 0.990223463687
+neg Precision: 0.988391376451
+neg Recall: 0.862518089725
+Most Informative Features
+                    Poor = True              neg : pos    =     95.5 : 1.0
+                   Waste = True              neg : pos    =     78.8 : 1.0
+               Excellent = True              pos : neg    =     77.9 : 1.0
+                    BEST = True              pos : neg    =     65.1 : 1.0
+                Terrible = True              neg : pos    =     64.4 : 1.0
+                    Crap = True              neg : pos    =     60.4 : 1.0
+                 Useless = True              neg : pos    =     56.1 : 1.0
+                 AWESOME = True              pos : neg    =     53.9 : 1.0
+                  Loving = True              pos : neg    =     50.6 : 1.0
+                   Worst = True              neg : pos    =     49.3 : 1.0
+
+Evaluating Stop Word filtered word features.
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.942430703625
+pos Precision: 0.908622908623
+pos Recall: 0.986033519553
+neg Precision: 0.984126984127
+neg Recall: 0.897250361795
+Most Informative Features
+                    Poor = True              neg : pos    =     95.5 : 1.0
+                   Waste = True              neg : pos    =     78.8 : 1.0
+               Excellent = True              pos : neg    =     77.9 : 1.0
+                    BEST = True              pos : neg    =     65.1 : 1.0
+                Terrible = True              neg : pos    =     64.4 : 1.0
+                    Crap = True              neg : pos    =     60.4 : 1.0
+                 Useless = True              neg : pos    =     56.1 : 1.0
+                 AWESOME = True              pos : neg    =     53.9 : 1.0
+                  Loving = True              pos : neg    =     50.6 : 1.0
+                   Worst = True              neg : pos    =     49.3 : 1.0
+
+Evaluating Unigram + Bigram Word features.
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.964463397299
+pos Precision: 0.957417582418
+pos Recall: 0.973463687151
+neg Precision: 0.972017673049
+neg Recall: 0.95513748191
+Most Informative Features
+                    Poor = True              neg : pos    =     95.5 : 1.0
+                   Waste = True              neg : pos    =     78.8 : 1.0
+               Excellent = True              pos : neg    =     77.9 : 1.0
+                    BEST = True              pos : neg    =     65.1 : 1.0
+                Terrible = True              neg : pos    =     64.4 : 1.0
+                    Crap = True              neg : pos    =     60.4 : 1.0
+(u'Highly', u'recommended') = True              pos : neg    =     60.2 : 1.0
+    (u'Very', u'useful') = True              pos : neg    =     57.0 : 1.0
+    (u'Not', u'working') = True              neg : pos    =     56.5 : 1.0
+                 Useless = True              neg : pos    =     56.1 : 1.0
+
+Evaluating high informative word features
+
+Evaluating best 10 word features
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.689410092395
+pos Precision: 0.624888093107
+pos Recall: 0.974860335196
+neg Precision: 0.937931034483
+neg Recall: 0.393632416787
+Most Informative Features
+                 awesome = True              pos : neg    =      7.2 : 1.0
+                    best = True              pos : neg    =      6.3 : 1.0
+                    easy = True              pos : neg    =      4.8 : 1.0
+                    love = True              pos : neg    =      3.3 : 1.0
+                    love = None              neg : pos    =      3.3 : 1.0
+                     fun = True              pos : neg    =      2.6 : 1.0
+                   great = True              pos : neg    =      2.5 : 1.0
+                     fix = True              neg : pos    =      2.4 : 1.0
+                   great = None              neg : pos    =      2.3 : 1.0
+                    best = None              neg : pos    =      2.1 : 1.0
+
+Evaluating best 100 word features
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.92750533049
+pos Precision: 0.900783289817
+pos Recall: 0.963687150838
+neg Precision: 0.959438377535
+neg Recall: 0.89001447178
+Most Informative Features
+               addictive = True              pos : neg    =     14.3 : 1.0
+                   helps = True              pos : neg    =     13.1 : 1.0
+               wonderful = True              pos : neg    =     11.7 : 1.0
+                   worst = True              neg : pos    =     11.4 : 1.0
+                 useless = True              neg : pos    =     11.0 : 1.0
+                   sucks = True              neg : pos    =     10.6 : 1.0
+                  refund = True              neg : pos    =     10.2 : 1.0
+               brilliant = True              pos : neg    =      9.5 : 1.0
+               excellent = True              pos : neg    =      8.7 : 1.0
+                 amazing = True              pos : neg    =      8.5 : 1.0
+
+Evaluating best 1000 word features
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.922530206112
+pos Precision: 0.898817345598
+pos Recall: 0.95530726257
+neg Precision: 0.950464396285
+neg Recall: 0.888567293777
+Most Informative Features
+                     rip = True              neg : pos    =     27.1 : 1.0
+               childhood = True              pos : neg    =     21.6 : 1.0
+                    1010 = True              pos : neg    =     21.1 : 1.0
+                     luv = True              pos : neg    =     20.7 : 1.0
+                  ripoff = True              neg : pos    =     20.3 : 1.0
+                     lt3 = True              pos : neg    =     20.3 : 1.0
+                   notch = True              pos : neg    =     19.7 : 1.0
+             entertained = True              pos : neg    =     19.1 : 1.0
+               addicting = True              pos : neg    =     19.1 : 1.0
+               addiction = True              pos : neg    =     17.1 : 1.0
+
+Evaluating best 10000 word features
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.922530206112
+pos Precision: 0.885641677255
+pos Recall: 0.973463687151
+neg Precision: 0.96935483871
+neg Recall: 0.86975397974
+Most Informative Features
+                     rip = True              neg : pos    =     27.1 : 1.0
+               childhood = True              pos : neg    =     21.6 : 1.0
+                    1010 = True              pos : neg    =     21.1 : 1.0
+                     luv = True              pos : neg    =     20.7 : 1.0
+                  ripoff = True              neg : pos    =     20.3 : 1.0
+                     lt3 = True              pos : neg    =     20.3 : 1.0
+                   notch = True              pos : neg    =     19.7 : 1.0
+             entertained = True              pos : neg    =     19.1 : 1.0
+               addicting = True              pos : neg    =     19.1 : 1.0
+                  haters = True              pos : neg    =     17.7 : 1.0
+
+Evaluating best 15000 word features
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.919687277896
+pos Precision: 0.880201765448
+pos Recall: 0.974860335196
+neg Precision: 0.970684039088
+neg Recall: 0.862518089725
+Most Informative Features
+                     rip = True              neg : pos    =     27.1 : 1.0
+               childhood = True              pos : neg    =     21.6 : 1.0
+                    1010 = True              pos : neg    =     21.1 : 1.0
+                     luv = True              pos : neg    =     20.7 : 1.0
+                  ripoff = True              neg : pos    =     20.3 : 1.0
+                     lt3 = True              pos : neg    =     20.3 : 1.0
+                   notch = True              pos : neg    =     19.7 : 1.0
+             entertained = True              pos : neg    =     19.1 : 1.0
+               addicting = True              pos : neg    =     19.1 : 1.0
+                  haters = True              pos : neg    =     17.7 : 1.0
+
+Evaluating best 200 Bigram word features
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.963752665245
+pos Precision: 0.96633941094
+pos Recall: 0.962290502793
+neg Precision: 0.961095100865
+neg Recall: 0.965267727931
+Most Informative Features
+(u'Highly', u'recommended') = True              pos : neg    =     60.2 : 1.0
+    (u'Very', u'useful') = True              pos : neg    =     57.0 : 1.0
+    (u'Not', u'working') = True              neg : pos    =     56.5 : 1.0
+        (u'LOVE', u'IT') = True              pos : neg    =     53.9 : 1.0
+    (u'Better', u'than') = True              pos : neg    =     48.0 : 1.0
+       (u'Will', u'not') = True              neg : pos    =     42.4 : 1.0
+(u'Highly', u'recommend') = True              pos : neg    =     37.7 : 1.0
+      (u'Not', u'happy') = True              neg : pos    =     37.6 : 1.0
+        (u'rip', u'off') = True              neg : pos    =     36.2 : 1.0
+        (u'Love', u'it') = True              pos : neg    =     35.9 : 1.0
+>>> 

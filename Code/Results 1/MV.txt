@@ -1,0 +1,18 @@
+>>> 
+****Max Vote Calssifier****
+
+Evaluating All Words as features.
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.926083866382
+pos Precision: 0.879652605459
+pos Recall: 0.990223463687
+neg Precision: 0.988352745424
+neg Recall: 0.859623733719
+
+Evaluating Stop Word filtered word features.
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.940298507463
+pos Precision: 0.904092071611
+pos Recall: 0.987430167598
+neg Precision: 0.9856
+neg Recall: 0.891461649783

@@ -1,0 +1,165 @@
+****Maximum Entropy Calssifier****
+
+Evaluating All Words as features.
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.896233120114
+pos Precision: 0.835294117647
+pos Recall: 0.991620111732
+neg Precision: 0.989228007181
+neg Recall: 0.797395079595
+  -0.000 Poor==True and label is 'pos'
+  -0.000 Waste==True and label is 'pos'
+  -0.000 Crap==True and label is 'pos'
+  -0.000 Excellent==True and label is 'neg'
+  -0.000 BEST==True and label is 'neg'
+  -0.000 Loving==True and label is 'neg'
+  -0.000 Terrible==True and label is 'pos'
+  -0.000 AWESOME==True and label is 'neg'
+  -0.000 Helps==True and label is 'neg'
+  -0.000 Useless==True and label is 'pos'
+
+Evaluating Stop Word filtered word features.
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.918976545842
+pos Precision: 0.869778869779
+pos Recall: 0.988826815642
+neg Precision: 0.986509274874
+neg Recall: 0.846599131693
+  -0.000 Poor==True and label is 'pos'
+  -0.000 Waste==True and label is 'pos'
+  -0.000 Crap==True and label is 'pos'
+  -0.000 Excellent==True and label is 'neg'
+  -0.000 BEST==True and label is 'neg'
+  -0.000 Loving==True and label is 'neg'
+  -0.000 Terrible==True and label is 'pos'
+  -0.000 AWESOME==True and label is 'neg'
+  -0.000 Helps==True and label is 'neg'
+  -0.000 Useless==True and label is 'pos'
+
+Evaluating Unigram + Bigram Word features.
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.951670220327
+pos Precision: 0.929708222812
+pos Recall: 0.97905027933
+neg Precision: 0.977029096478
+neg Recall: 0.923299565847
+  -0.000 Poor==True and label is 'pos'
+  -0.000 Waste==True and label is 'pos'
+  -0.000 (u'Highly', u'recommended')==True and label is 'neg'
+  -0.000 (u'Very', u'useful')==True and label is 'neg'
+  -0.000 Crap==True and label is 'pos'
+  -0.000 Excellent==True and label is 'neg'
+  -0.000 BEST==True and label is 'neg'
+  -0.000 Loving==True and label is 'neg'
+  -0.000 Terrible==True and label is 'pos'
+  -0.000 (u'Better', u'than')==True and label is 'neg'
+
+Evaluating high informative word features
+
+Evaluating best 10 word features
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.757640369581
+pos Precision: 0.685459940653
+pos Recall: 0.967877094972
+neg Precision: 0.941919191919
+neg Recall: 0.53979739508
+  -0.339 awesome==True and label is 'neg'
+  -0.313 best==True and label is 'neg'
+  -0.251 easy==True and label is 'neg'
+  -0.177 love==True and label is 'neg'
+  -0.147 fix==True and label is 'pos'
+  -0.131 fun==True and label is 'neg'
+  -0.126 great==True and label is 'neg'
+   0.118 awesome==True and label is 'pos'
+   0.116 best==True and label is 'pos'
+   0.105 easy==True and label is 'pos'
+
+Evaluating best 100 word features
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.923240938166
+pos Precision: 0.890745501285
+pos Recall: 0.967877094972
+neg Precision: 0.963434022258
+neg Recall: 0.876989869754
+  -0.059 addictive==True and label is 'neg'
+  -0.056 helps==True and label is 'neg'
+  -0.053 wonderful==True and label is 'neg'
+  -0.051 worst==True and label is 'pos'
+  -0.050 useless==True and label is 'pos'
+  -0.049 sucks==True and label is 'pos'
+  -0.048 refund==True and label is 'pos'
+  -0.048 brilliant==True and label is 'neg'
+  -0.045 excellent==True and label is 'neg'
+  -0.045 amazing==True and label is 'neg'
+
+Evaluating best 1000 word features
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.918976545842
+pos Precision: 0.883928571429
+pos Recall: 0.967877094972
+neg Precision: 0.963081861958
+neg Recall: 0.868306801737
+  -0.008 childhood==True and label is 'neg'
+  -0.008 rip==True and label is 'pos'
+  -0.008 notch==True and label is 'neg'
+  -0.008 ripoff==True and label is 'pos'
+  -0.008 1010==True and label is 'neg'
+  -0.008 luv==True and label is 'neg'
+  -0.007 addiction==True and label is 'neg'
+  -0.007 lt3==True and label is 'neg'
+  -0.007 entertained==True and label is 'neg'
+  -0.007 refuses==True and label is 'pos'
+
+Evaluating best 10000 word features
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.901208244492
+pos Precision: 0.845508982036
+pos Recall: 0.986033519553
+neg Precision: 0.982517482517
+neg Recall: 0.813314037627
+  -0.001 childhood==True and label is 'neg'
+  -0.001 rip==True and label is 'pos'
+  -0.001 notch==True and label is 'neg'
+  -0.001 ripoff==True and label is 'pos'
+  -0.001 haters==True and label is 'neg'
+  -0.001 1010==True and label is 'neg'
+  -0.001 luv==True and label is 'neg'
+  -0.001 addiction==True and label is 'neg'
+  -0.001 lt3==True and label is 'neg'
+  -0.001 entertained==True and label is 'neg'
+
+Evaluating best 15000 word features
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.891257995736
+pos Precision: 0.832349468713
+pos Recall: 0.984636871508
+neg Precision: 0.980357142857
+neg Recall: 0.794500723589
+  -0.001 childhood==True and label is 'neg'
+  -0.001 rip==True and label is 'pos'
+  -0.001 notch==True and label is 'neg'
+  -0.001 ripoff==True and label is 'pos'
+  -0.001 haters==True and label is 'neg'
+  -0.001 1010==True and label is 'neg'
+  -0.001 luv==True and label is 'neg'
+  -0.001 addiction==True and label is 'neg'
+  -0.001 lt3==True and label is 'neg'
+  -0.001 entertained==True and label is 'neg'
+
+Evaluating best 200 Bigram word features
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.961620469083
+pos Precision: 0.958448753463
+pos Recall: 0.966480446927
+neg Precision: 0.96496350365
+neg Recall: 0.956584659913
+  -0.000 (u'Highly', u'recommended')==True and label is 'neg'
+  -0.000 (u'Very', u'useful')==True and label is 'neg'
+  -0.000 (u'Better', u'than')==True and label is 'neg'
+  -0.000 (u'LOVE', u'IT')==True and label is 'neg'
+  -0.000 (u'Not', u'working')==True and label is 'pos'
+  -0.000 (u'Will', u'not')==True and label is 'pos'
+  -0.000 (u'Highly', u'recommend')==True and label is 'neg'
+  -0.000 (u'Not', u'happy')==True and label is 'pos'
+  -0.000 (u'rip', u'off')==True and label is 'pos'
+  -0.000 (u'Must', u'have')==True and label is 'neg'

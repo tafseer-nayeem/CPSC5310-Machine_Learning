@@ -1,0 +1,156 @@
+****Naive Bayes Calssifier****
+
+Evaluating Unigram Words as features.
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.938166311301
+pos Precision: 0.902688860435
+pos Recall: 0.984636871508
+neg Precision: 0.982428115016
+neg Recall: 0.89001447178
+Most Informative Features
+                    Poor = True              neg : pos    =     95.5 : 1.0
+                   Waste = True              neg : pos    =     78.8 : 1.0
+               Excellent = True              pos : neg    =     77.9 : 1.0
+                    BEST = True              pos : neg    =     65.1 : 1.0
+                Terrible = True              neg : pos    =     64.4 : 1.0
+                    Crap = True              neg : pos    =     60.4 : 1.0
+                 Useless = True              neg : pos    =     56.1 : 1.0
+                 AWESOME = True              pos : neg    =     53.9 : 1.0
+                  Loving = True              pos : neg    =     50.6 : 1.0
+                   Worst = True              neg : pos    =     49.3 : 1.0
+
+Evaluating Unigram + Bigram Word features.
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.965174129353
+pos Precision: 0.961272475795
+pos Recall: 0.970670391061
+neg Precision: 0.969298245614
+neg Recall: 0.959479015919
+Most Informative Features
+                    Poor = True              neg : pos    =     95.5 : 1.0
+                   Waste = True              neg : pos    =     78.8 : 1.0
+               Excellent = True              pos : neg    =     77.9 : 1.0
+                    BEST = True              pos : neg    =     65.1 : 1.0
+                Terrible = True              neg : pos    =     64.4 : 1.0
+                    Crap = True              neg : pos    =     60.4 : 1.0
+(u'Highly', u'recommended') = True              pos : neg    =     60.2 : 1.0
+    (u'Very', u'useful') = True              pos : neg    =     57.0 : 1.0
+    (u'Not', u'working') = True              neg : pos    =     56.5 : 1.0
+                 Useless = True              neg : pos    =     56.1 : 1.0
+
+Evaluating high informative word features
+
+Evaluating best 10 word features
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.563610518834
+pos Precision: 0.538345864662
+pos Recall: 1.0
+neg Precision: 1.0
+neg Recall: 0.111432706223
+Most Informative Features
+                 Awesome = True              pos : neg    =     25.1 : 1.0
+                    Best = True              pos : neg    =     23.6 : 1.0
+                    Love = True              pos : neg    =     10.1 : 1.0
+                 awesome = True              pos : neg    =      7.2 : 1.0
+                    best = True              pos : neg    =      6.3 : 1.0
+                   Great = True              pos : neg    =      6.1 : 1.0
+                    love = True              pos : neg    =      3.3 : 1.0
+                    love = None              neg : pos    =      3.3 : 1.0
+                   Great = None              neg : pos    =      3.1 : 1.0
+                    Love = None              neg : pos    =      2.8 : 1.0
+
+Evaluating best 100 word features
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.928216062544
+pos Precision: 0.884856070088
+pos Recall: 0.987430167598
+neg Precision: 0.985197368421
+neg Recall: 0.866859623734
+Most Informative Features
+                   Waste = True              neg : pos    =     78.8 : 1.0
+               Excellent = True              pos : neg    =     77.9 : 1.0
+                   Worst = True              neg : pos    =     49.3 : 1.0
+                    Easy = True              pos : neg    =     34.7 : 1.0
+                 Amazing = True              pos : neg    =     31.3 : 1.0
+                 Perfect = True              pos : neg    =     26.2 : 1.0
+               Fantastic = True              pos : neg    =     25.5 : 1.0
+                 Awesome = True              pos : neg    =     25.1 : 1.0
+                    Best = True              pos : neg    =     23.6 : 1.0
+                     Won = True              neg : pos    =     20.2 : 1.0
+
+Evaluating best 1000 word features
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.958777540867
+pos Precision: 0.944594594595
+pos Recall: 0.97625698324
+neg Precision: 0.974512743628
+neg Recall: 0.940665701881
+Most Informative Features
+                    Poor = True              neg : pos    =     95.5 : 1.0
+                   Waste = True              neg : pos    =     78.8 : 1.0
+               Excellent = True              pos : neg    =     77.9 : 1.0
+                    BEST = True              pos : neg    =     65.1 : 1.0
+                Terrible = True              neg : pos    =     64.4 : 1.0
+                    Crap = True              neg : pos    =     60.4 : 1.0
+                 Useless = True              neg : pos    =     56.1 : 1.0
+                 AWESOME = True              pos : neg    =     53.9 : 1.0
+                  Loving = True              pos : neg    =     50.6 : 1.0
+                   Worst = True              neg : pos    =     49.3 : 1.0
+
+Evaluating best 10000 word features
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.956645344705
+pos Precision: 0.937249666222
+pos Recall: 0.980446927374
+neg Precision: 0.978723404255
+neg Recall: 0.931982633864
+Most Informative Features
+                    Poor = True              neg : pos    =     95.5 : 1.0
+                   Waste = True              neg : pos    =     78.8 : 1.0
+               Excellent = True              pos : neg    =     77.9 : 1.0
+                    BEST = True              pos : neg    =     65.1 : 1.0
+                Terrible = True              neg : pos    =     64.4 : 1.0
+                    Crap = True              neg : pos    =     60.4 : 1.0
+                 Useless = True              neg : pos    =     56.1 : 1.0
+                 AWESOME = True              pos : neg    =     53.9 : 1.0
+                  Loving = True              pos : neg    =     50.6 : 1.0
+                   Worst = True              neg : pos    =     49.3 : 1.0
+
+Evaluating best 15000 word features
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.953802416489
+pos Precision: 0.932270916335
+pos Recall: 0.980446927374
+neg Precision: 0.978593272171
+neg Recall: 0.926193921852
+Most Informative Features
+                    Poor = True              neg : pos    =     95.5 : 1.0
+                   Waste = True              neg : pos    =     78.8 : 1.0
+               Excellent = True              pos : neg    =     77.9 : 1.0
+                    BEST = True              pos : neg    =     65.1 : 1.0
+                Terrible = True              neg : pos    =     64.4 : 1.0
+                    Crap = True              neg : pos    =     60.4 : 1.0
+                 Useless = True              neg : pos    =     56.1 : 1.0
+                 AWESOME = True              pos : neg    =     53.9 : 1.0
+                  Loving = True              pos : neg    =     50.6 : 1.0
+                   Worst = True              neg : pos    =     49.3 : 1.0
+
+Evaluating best 200 Bigram word features
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.963752665245
+pos Precision: 0.96633941094
+pos Recall: 0.962290502793
+neg Precision: 0.961095100865
+neg Recall: 0.965267727931
+Most Informative Features
+(u'Highly', u'recommended') = True              pos : neg    =     60.2 : 1.0
+    (u'Very', u'useful') = True              pos : neg    =     57.0 : 1.0
+    (u'Not', u'working') = True              neg : pos    =     56.5 : 1.0
+        (u'LOVE', u'IT') = True              pos : neg    =     53.9 : 1.0
+    (u'Better', u'than') = True              pos : neg    =     48.0 : 1.0
+       (u'Will', u'not') = True              neg : pos    =     42.4 : 1.0
+(u'Highly', u'recommend') = True              pos : neg    =     37.7 : 1.0
+      (u'Not', u'happy') = True              neg : pos    =     37.6 : 1.0
+        (u'rip', u'off') = True              neg : pos    =     36.2 : 1.0
+        (u'Love', u'it') = True              pos : neg    =     35.9 : 1.0
+>>> 

@@ -1,0 +1,68 @@
+****Max Vote Calssifier****
+
+Evaluating Unigram Words as features.
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.938877043355
+pos Precision: 0.904884318766
+pos Recall: 0.983240223464
+neg Precision: 0.980922098569
+neg Recall: 0.892908827786
+
+Evaluating Unigram + Bigram Word features.
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.966595593461
+pos Precision: 0.963938973648
+pos Recall: 0.970670391061
+neg Precision: 0.969387755102
+neg Recall: 0.962373371925
+
+Evaluating high informative word features
+
+Evaluating best 10 word features
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.609808102345
+pos Precision: 0.566112430721
+pos Recall: 0.998603351955
+neg Precision: 0.993055555556
+neg Recall: 0.206946454414
+
+Evaluating best 100 word features
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.928926794598
+pos Precision: 0.885964912281
+pos Recall: 0.987430167598
+neg Precision: 0.985221674877
+neg Recall: 0.868306801737
+
+Evaluating best 1000 word features
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.958777540867
+pos Precision: 0.944594594595
+pos Recall: 0.97625698324
+neg Precision: 0.974512743628
+neg Recall: 0.940665701881
+
+Evaluating best 10000 word features
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.957356076759
+pos Precision: 0.938502673797
+pos Recall: 0.980446927374
+neg Precision: 0.97875569044
+neg Recall: 0.933429811867
+
+Evaluating best 15000 word features
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.955223880597
+pos Precision: 0.934753661784
+pos Recall: 0.980446927374
+neg Precision: 0.978658536585
+neg Recall: 0.929088277858
+
+Evaluating best 200 Bigram word features
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.964463397299
+pos Precision: 0.969014084507
+pos Recall: 0.960893854749
+neg Precision: 0.959827833572
+neg Recall: 0.968162083936
+>>> 

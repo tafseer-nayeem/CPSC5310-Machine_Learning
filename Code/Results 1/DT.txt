@@ -1,0 +1,76 @@
+****Decision Tree Calssifier****
+
+Evaluating All Words as features.
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.847903340441
+pos Precision: 0.864825581395
+pos Recall: 0.831005586592
+neg Precision: 0.831710709318
+neg Recall: 0.865412445731
+
+Evaluating Stop Word filtered word features.
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.847192608387
+pos Precision: 0.860431654676
+pos Recall: 0.835195530726
+neg Precision: 0.834269662921
+neg Recall: 0.859623733719
+
+Evaluating Unigram + Bigram Word features.
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.847192608387
+pos Precision: 0.860431654676
+pos Recall: 0.835195530726
+neg Precision: 0.834269662921
+neg Recall: 0.859623733719
+
+Evaluating high informative word features
+
+Evaluating best 10 word features
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.751243781095
+pos Precision: 0.772321428571
+pos Recall: 0.724860335196
+neg Precision: 0.731972789116
+neg Recall: 0.778581765557
+
+Evaluating best 100 word features
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.751243781095
+pos Precision: 0.772321428571
+pos Recall: 0.724860335196
+neg Precision: 0.731972789116
+neg Recall: 0.778581765557
+
+Evaluating best 1000 word features
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.751243781095
+pos Precision: 0.772321428571
+pos Recall: 0.724860335196
+neg Precision: 0.731972789116
+neg Recall: 0.778581765557
+
+Evaluating best 10000 word features
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.751243781095
+pos Precision: 0.772321428571
+pos Recall: 0.724860335196
+neg Precision: 0.731972789116
+neg Recall: 0.778581765557
+
+Evaluating best 15000 word features
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.751243781095
+pos Precision: 0.772321428571
+pos Recall: 0.724860335196
+neg Precision: 0.731972789116
+neg Recall: 0.778581765557
+
+Evaluating best 200 Bigram word features
+train on 4218 instances, test on 1407 instances
+Accuracy: 0.750533049041
+pos Precision: 0.745625841184
+pos Recall: 0.77374301676
+neg Precision: 0.756024096386
+neg Recall: 0.726483357453
+>>>
